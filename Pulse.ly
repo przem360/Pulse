@@ -1,4 +1,4 @@
-;11M5;15;\version "2.18.2"
+\version "2.18.2"
 % Copyright 2020 Przemysław Wolski
 % Playback tempo should be around 120BPM, but in timidity
 % it sounds ok with parameter:
@@ -10,14 +10,13 @@
     title = "Pulse"
     }
 
-#(set-global-staff-size 20.0750126457)
+
+#(set-default-paper-size "a4")
 \paper {
-    paper-width = 21.00\cm
-    paper-height = 29.70\cm
-    top-margin = 1.0\cm
+    top-margin = 2.0\cm
     bottom-margin = 2.0\cm
-    left-margin = 1.0\cm
-    right-margin = 1.0\cm
+    left-margin = 2.0\cm
+    right-margin = 2.0\cm
     }
 \layout {
     \context { \Score
